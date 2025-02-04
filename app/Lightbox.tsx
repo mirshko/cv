@@ -190,9 +190,9 @@ const LightboxImage: React.FC<LightboxImageProps> = ({
   const imageAspectRatio = media.width / media.height;
   
   let attachment = media.type === "image" ?
-    <img src={media.url}/> :
+    <img src={`/cv/${media.url}`}/> :
     <video
-      src={media.url}
+      src={`/cv/${media.url}`}
       autoPlay
       muted
       playsInline

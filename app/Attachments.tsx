@@ -128,9 +128,9 @@ const Attachment: React.FC<AttachmentProps> = ({
 
   let item;
   if (media.type === "image") {
-    item = <Image alt="" src={media.url} height={height} width={height * returnThumbnailAspectRatio(media.width / media.height)} />
+    item = <Image alt="" src={`/cv/${media.url}`} height={height} width={height * returnThumbnailAspectRatio(media.width / media.height)} />
   } else if (media.type === "video") {
-    item = <video src={media.url} autoPlay loop muted playsInline/>
+    item = <video src={`/cv/${media.url}`} autoPlay loop muted playsInline/>
   }
 
   return (

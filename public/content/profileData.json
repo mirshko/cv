@@ -101,6 +101,25 @@
   ],
   "sideProjects": [
     {
+      "id": "130297123y90213",
+      "year": "2025",
+      "heading": "Website Refresh at Oxmose",
+      "url": "https://www.oxmose.com",
+      "collaborators": [],
+      "description": "Oxmose is an independent french record label with a non-linear contemporary music vision, defining its sound identity through artistic concepts that blur genre lines, while also immersing the audience in a unique visual experience. Worked with the team build their new website, including e-commerce store and a player for their records.",
+      "attachments": [
+        {
+          "type": "image",
+          "width": 2880,
+          "height": 1800,
+          "url": "/content/media/website-refresh-oxmose.png"
+        }
+      ],
+      "type": "sideProject",
+      "title": "Website Refresh",
+      "company": "Oxmose"
+    },
+    {
       "id": "DJh6rYxdYMJ5igyjads9",
       "year": "2023",
       "heading": "Website Refresh at Voices Radio",
